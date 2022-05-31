@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Flaot Properties</title>
+		<style>
+		/*float:left/right/none property*/
+		*{
+			box-sizing:border-box;
+		}
+		header{
+			background-color:pink;
+			height:400px;
+		}
+		img{
+			float:left;/*float:right;float:none*/
+			margin:15px;
+		}
+		
+		/*CLEAR FIX HACK*/
+		ul li{
+			list-style-type:none;
+			padding:10px;
+			margin-bottom:10px;
+			background-color:coral;
+		}
+		ul li:hover{
+			background-color:red;
+		}
+		#list{
+			float:left;
+			width:25%;
+		}
+		#p{
+			float:left;
+			width:75%;
+			padding-left:20px;
+		}
+		main::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+		
+		/*float clear property*/
+		#fl{
+			float:left;
+			border:5px solid green;
+			padding:10px;
+		}
+		#cl{
+			border:5px solid red;
+			padding:10px;
+			clear:left;
+		}
+		</style>
+	</head>
+	<body>
+		<section>
+			<header>
+				<div id="h1">
+					<h1>Float properties</h1>
+				</div>
+				<div id="img">
+					<p><img src="../images/flower.jfif" alt="No Image"/>left - The element floats to the left of its container
+					right - The element floats to the right of its container
+					none - The element does not float (will be displayed just where it occurs in the text). This is default.
+					inherit - The element inherits the float value of its parent.</p>
+				</div>
+			</header>
+			<main>
+				<div id="list">
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>Bootstrap</li>
+					</ul>
+				</div>
+				<div id="p">
+					<p><span>T</span>he HyperText Markup Language or HTML is the standard markup language for 
+					documents designed to be displayed in a web browser. It can be assisted by technologies 
+					such as Cascading Style Sheets and scripting languages such as JavaScript.</p>
+				</div>
+			</main>
+			<footer>
+				<div id="fl">css float</div>
+				<div id="cl">css clear</div>
+			</footer>
+		</main>
+	</body>
+</html>
