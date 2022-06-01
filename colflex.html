@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>column layout using flex</title>
+		<style>
+			
+			section .one,section .two,section .three,section .four,section .five{
+				display:flex;
+				border:1px solid red;
+					
+			}
+			.one div,.two div,.three div,.four div,.five div{
+				flex:1;
+				border-right:1px solid blue;
+				height:100px;
+			}
+			section{
+				border:1px solid red;
+				height:500px;
+			}
+			.one div{
+				background-color:pink;
+			}
+			.two div{
+				background-color:lightgreen;
+			}
+			.three div{
+				background-color:lightyellow;
+			}
+			.four div{
+				background-color:lightgrey;
+			}
+			.five div{
+				background-color:coral;
+			}
+		</style>
+	</head>
+	<body>
+		<section>
+			<div class="one">
+				<div>1</div>
+				<div>2</div>
+				<div>3</div>
+				<div>4</div>
+			</div>
+			<div class="two">
+				<div>1</div>
+				<div>2</div>
+				<div>3</div>
+				<div>4</div>
+				<div>5</div>
+				
+			</div>
+			<div class="three">
+				<div>1</div>
+				<div>2</div>
+				<div>3</div>
+				<div>4</div>
+				<div>5</div>
+				<div>6</div>
+			</div>
+			<div class="four"> 
+				<div>1</div>
+				<div>2</div>
+				<div>3</div>
+				<div>4</div>
+				<div>5</div>
+				<div>6</div>
+				<div>7</div>
+			</div>
+			<div class="five">
+				<div>1</div>
+				<div>2</div>
+				<div>3</div>
+				<div>4</div>
+				<div>5</div>
+				<div>6</div>
+				<div>7</div>
+				<div>8</div>
+			</div>
+		</section>
+	</body>
+</html>
+			
