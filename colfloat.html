@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>columns using float</title>
+		<style>
+			section{
+				border:1px solid red;
+				float:left;
+				width:100%;
+				box-sizing:border-box;
+				height:100px;
+			}
+			section div{
+				float:left;
+				border-right:1px solid blue;
+				box-sizing:border-box;
+			}
+			.one div,.two div,.three div,.four div,.five div{
+				box-sizing:border-box;
+				height:100px;
+			}
+			.one div{
+				width:25%;
+				background-color:pink;
+				/*height:100px;*/
+			}
+			.two div{
+				width:20%;
+				background-color:lightgreen;
+				/*height:80px;*/
+			}
+			.three div{
+				width:16%;
+				background-color:lightyellow;
+				/*height:66px;*/
+			}
+			.four div{
+				width:14%;
+				background-color:coral;
+				/*height:57px;*/
+			}
+			.five div{
+				width:12%;
+				background-color:lightgrey;
+				/*height:50px;*/
+			}
+			.two img{
+				height:100px;
+			}
+			.four audio{
+				width:200px;
+				height:50px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<section class="one">
+				<div>1</div>
+				<div>2</div>
+				<div>3</div>
+				<div>4</div>
+		
+		</section>
+		<section class="two">
+				<div>1<img src="../images/flower.jfif" alt="No Image"/></div>
+				<div>2<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBIXzWDdyckW0hrl9hTj8bEUwkEZk5r3aFWw&usqp=CAU" alt="No Image"/></div>
+				<div>3<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS9Hwot1dnhPwVRKMutchj1Lyg-4g_KbVfbg&usqp=CAU" alt="No Image"/></div>
+				<div>4<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ91pGMedc1Z4-2wJZYZjipdEkCD62veB_5dQ&usqp=CAU" alt="No Image"/></div>
+				<div>5<img src="../images/pic.jfif" alt="No Image"/></div>
+		</section>
+		<section class="three">
+				<div>1<iframe width="200px" height="100px" src="https://www.youtube.com/embed/Q4wUBsLkgW0" 
+				title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+				encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+				<div>2<iframe width="200px" height="100px" src="https://www.youtube.com/embed/Tuw8hxrFBH8" 
+				title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+				encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+				<div>3<iframe width="200px" height="100px" src="https://www.youtube.com/embed/2Ar05F-LnWQ" title="YouTube video player" 
+				frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+				allowfullscreen></iframe></div>
+				<div>4<iframe width="200px" height="100px" src="https://www.youtube.com/embed/wnHW6o8WMas" title="YouTube video player" 
+				frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+				allowfullscreen></iframe></div>
+				<div>5<iframe width="200px" height="100px" src="https://www.youtube.com/embed/t1XCzWlYWeA" title="YouTube video player" 
+				frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+				allowfullscreen></iframe></div>
+				<div>6<iframe width="200px" height="100px" src="https://www.youtube.com/embed/XLPqy2oO-Eg" title="YouTube video player" 
+				frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+				allowfullscreen></iframe></div>
+		</section>
+		<section class="four">
+				<div>1<audio controls><source src="../images/audio.mp3" type="audio/mp3"/></audio></div>
+				<div>2<audio controls><source src="https://filesamples.com/samples/audio/mp3/Symphony%20No.6%20(1st%20movement).mp3" type="audio/mp3"/></audio></div>
+				<div>3<audio controls><source src="" type="audio/mp3"/></audio></div>
+				<div>4<audio controls><source src="" type="audio/mp3"/></audio></div>
+				<div>5<audio controls><source src="" type="audio/mp3"/></audio></div>
+				<div>6<audio controls><source src="" type="audio/mp3"/></audio></div>
+				<div>7<audio controls><source src="" type="audio/mp3"/></audio></div>
+		</section>
+		<section class="five">
+				<div>1<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.709825691261!2d78.38603661479759!3d17.473597288026966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91625d9cd1ad%3A0x4455387ad24a675d!2s10000coders!5e0!3m2!1sen!2sin!4v1654010790355!5m2!1sen!2sin" width="150px" height="100px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+				<div>2<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.4005538501756!2d78.03995351497595!3d27.175144783015234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747121d702ff6d%3A0xdd2ae4803f767dde!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1654011538724!5m2!1sen!2sin" width="150px" height="90px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+				<div>3<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.580272575547!2d79.34586181474828!3d13.6832673903918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d4b19d3f65f0b%3A0x9ceb617526255701!2sTirupati%20temple!5e0!3m2!1sen!2sin!4v1654046600129!5m2!1sen!2sin" width="150px" height="90px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+				<div>4<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.9175265419426!2d78.868595514778!3d16.06976898888059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb5656fb6fadf47%3A0xdf20ef1dbeed60e3!2sSrisailam%20Temple!5e0!3m2!1sen!2sin!4v1654046711041!5m2!1sen!2sin" width="150px" height="90" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+				<div>5<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3715.0489496559762!2d70.56934651486071!3d21.387977185804903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be2a91e66aaaaab%3A0x2adeb60a5e87e129!2sSomnath%20Temple!5e0!3m2!1sen!2sin!4v1654046804108!5m2!1sen!2sin" width="150px" height="90px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+				<div>6<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14771.25636094776!2d68.9583398286776!3d22.247131465617862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39569c3ab7c4e9e5%3A0x31b7c3111df48f4!2sShree%20Dwarkadhish%20Temple!5e0!3m2!1sen!2sin!4v1654046905162!5m2!1sen!2sin" width="150px" height="90px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+				<div>7<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15015.318521569974!2d85.80040933955078!3d19.8048196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19c6b8bfe386af%3A0x8f052c84639c7d48!2sShri%20Jagannatha%20Temple%20Puri!5e0!3m2!1sen!2sin!4v1654046967391!5m2!1sen!2sin" width="150px" height="90px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+				<div>8<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15018.807709138671!2d74.4678922779862!3d19.767814787115036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdc5b95942e3f71%3A0x4fe9963dd4272efc!2sSai%20Darshan!5e0!3m2!1sen!2sin!4v1654047073294!5m2!1sen!2sin" width="150px" height="90px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+		</section>
+		
+	</body>
+</html>
